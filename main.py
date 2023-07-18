@@ -70,7 +70,7 @@ def get_source_code(message: types.Message):
     # todo: Выложить на гитхаб
     markup = types.InlineKeyboardMarkup()
     btn_my_site = types.InlineKeyboardButton(text='Репозиторий',
-                                             url='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley')
+                                             url='https://github.com/andreyyfrolov/yandex_kids_ai_bot')
     markup.add(btn_my_site)
     bot.send_message(message.chat.id, "Ссылка на репозиторий с кодом проекта", reply_markup=markup)
 
